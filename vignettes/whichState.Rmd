@@ -1,0 +1,28 @@
+---
+title: "whichState"
+author: "Gerald Lee"
+date: "'r Sys.Date()'"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{whichState}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+### The `whichState` package was created to help anyone who wanted to find out which American state a particular phone number or a set of phone numbers are from. This package extracts the first 3 digits of a phone number and matches them to the US directory of Area codes.
+
+### For instance, New York has several Area codes and 212 is one of them.
+
+```{r setup}
+library(whichState)
+whichState(2121234567, us=TRUE)
+```
+
+### The function has 2 arguments, the first is the US 10 digit phone number and the second which is set to default `us=TRUE`. The second argument is set to default because the function will only work for US phone numbers. if the phone numbers are from a different country, the function will not work.
