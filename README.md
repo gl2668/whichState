@@ -8,10 +8,11 @@ The goal of whichState is to make it easy to find out which American State a pho
 
 ## Installation
 
-You can install the released version of whichState from [CRAN](https://CRAN.R-project.org) with:
+You can install the released version of whichState from [Github](https://github.com/gl2668/whichState) with:
 
 ``` r
-install.packages("whichState")
+install.packages("devtools")
+devtools::install_github("gl2668/whichState")
 ```
 
 ## Example

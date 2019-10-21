@@ -3,7 +3,7 @@ Type: Package
 Title: Find out which American State is the phone number from via US Area Code
 Version: 0.1.0
 Authors@R: person("Gerald", "Lee", email = "gerald.lee@columbia.edu", role = c("aut", "cre"))
-Description: This function has been designed to extract the first 3 digits of the provided phone number, match them to the US State Area Codes and find out which state the phone number is from.The phone number provided has to be a proper US phone number with 10 digits.
+Description: This package has been designed to extract the first 3 digits of the provided phone number, match them to the US State Area Codes and find out which state the phone number is from.The phone number provided has to be a proper US phone number with 10 digits.
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
