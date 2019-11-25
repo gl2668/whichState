@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of whichState is to make it easy to find out which American State a phone number belongs to.
+The goal of whichState is to make it easy for you to find out which American State a phone number belongs to.
 
 ## Installation
 
@@ -17,7 +17,7 @@ devtools::install_github("gl2668/whichState")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example of how the package works. If I want to find out which state the phone number 212-123-4567 is from, I will use the following:
 
 ``` r
 library(whichState)
