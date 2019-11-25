@@ -21,7 +21,7 @@ This is a basic example of how the package works. If I want to find out which st
 
 ``` r
 library(whichState)
-## whichState(2121234567, usa=TRUE)
+whichState(2121234567, usa=TRUE)
 ## "New York State"
 ```
 
